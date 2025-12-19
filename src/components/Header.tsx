@@ -17,7 +17,7 @@ export function Header({ onCartClick }: HeaderProps) {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-display font-bold text-lg">P</span>
+            <span className="text-primary-foreground font-display font-bold text-lg"></span>
           </div>
           <div>
             <h1 className="font-display font-bold text-lg leading-tight text-foreground">
