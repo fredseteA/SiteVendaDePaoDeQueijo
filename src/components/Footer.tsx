@@ -27,15 +27,15 @@ export function Footer() {
             <ul className="space-y-3 font-body text-sm">
               <li className="flex items-center gap-2 text-cream/70">
                 <Phone className="h-4 w-4 text-primary" />
-                (31) 99999-9999
+                (22) 98138-2606
               </li>
-              <li className="flex items-center gap-2 text-cream/70">
+              {/*<li className="flex items-center gap-2 text-cream/70">
                 <Mail className="h-4 w-4 text-primary" />
                 contato@paodequeijomineiro.com.br
-              </li>
+              </li>*/}
               <li className="flex items-center gap-2 text-cream/70">
                 <MapPin className="h-4 w-4 text-primary" />
-                Belo Horizonte, MG
+                Campos dos Goytacazes - RJ
               </li>
             </ul>
           </div>
@@ -45,8 +45,7 @@ export function Footer() {
             <h4 className="font-display font-bold text-lg mb-4">Informações</h4>
             <ul className="space-y-2 font-body text-sm text-cream/70">
               <li>Pacotes congelados com 30 unidades</li>
-              <li>Entrega para todo o Brasil</li>
-              <li>Pagamento via PIX ou cartão</li>
+              <li>Pagamento via PIX</li>
               <li>Pedidos pelo WhatsApp</li>
             </ul>
           </div>

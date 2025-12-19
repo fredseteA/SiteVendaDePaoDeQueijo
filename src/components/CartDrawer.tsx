@@ -36,10 +36,10 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
       .join("\n");
 
     const total = formatPrice(getCartTotal());
-    const message = `Olá! Gostaria de fazer um pedido:\n\n${items}\n\n*Total: ${total}*`;
+    const message = `Olá! Gostaria de fazer um pedido:\n\n${items}\n\n*Total: ${total}* + Frete`;
 
-    // Número de WhatsApp da empresa (substitua pelo número real)
-    const phoneNumber = "5531999999999";
+    // Número de WhatsApp da empresa 
+    const phoneNumber = "5522981382606";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, "_blank");
